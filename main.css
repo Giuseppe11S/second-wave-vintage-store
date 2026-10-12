@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-content{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-content-li{
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links{
+  cursor: pointer;
+}
+
+.img-hero{
+  background-image: url(assets/img-hero/second-wave-hero.jpg);
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-content{
+  display: flex;
+  justify-content: center;
+  background-color: #d1fc00;
+}
